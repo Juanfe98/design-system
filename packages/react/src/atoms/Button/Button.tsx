@@ -6,7 +6,7 @@ interface Props {
 
 const Button = ({label}: Props) => {
   return (
-    <button>{label}</button>
+    <button className="dse-button-container">{label}</button>
   )
 }
 
