@@ -1,0 +1,18 @@
+/**
+ * This file defines the some actual utilities that we will use 
+ * across some of the components in the React application.
+ * 
+ */
+@import "foundation/all";
+
+// Using SCSS functions to create a class for all the possibles spacings we defined
+// in the variables.scss file. To understand this better see the CSS generated from this file.
+@each $size, $value in $spacing {
+    .dse-width-#{$size} {
+        width: $value;
+    }
+
+    .dse-height-#{$size} {
+        height: $value;
+    }
+}
