@@ -1,0 +1,39 @@
+Arguments: 
+  /home/juan/.nvm/versions/node/v16.15.0/bin/node /mnt/c/Users/juan.montana/AppData/Roaming/npm/node_modules/yarn/bin/yarn.js add --dev typescript
+
+PATH: 
+  /home/juan/.pyenv/shims:/home/juan/.pyenv/bin:/home/juan/.nvm/versions/node/v16.15.0/bin:/usr/local/bin:/usr/local/sbin:/home/juan/.cargo/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/OpenJDK/openjdk-11.0.13_8/bin:/mnt/c/Users/juan.montana/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/GitHub CLI/:/mnt/c/Users/juan.montana/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/juan.montana/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/juan.montana/AppData/Roaming/npm:/mnt/c/Users/juan.montana/AppData/Local/GitHubDesktop/bin:/mnt/c/tools/neovim/nvim-win64/bin:/home/juan/.local/bin:/home/juan/.local/bin:/home/juan/.local/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.15.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/juan/Documents/personalProjects/design-sistems/packages/foundation/package.json: Unexpected token , in JSON at position 135
+      at JSON.parse (<anonymous>)
+      at /mnt/c/Users/juan.montana/AppData/Roaming/npm/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/mnt/c/Users/juan.montana/AppData/Roaming/npm/node_modules/yarn/lib/cli.js:310:30)
+      at /mnt/c/Users/juan.montana/AppData/Roaming/npm/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "@ds.e/foundation",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "build": "tsc"
+    }
+  },
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
